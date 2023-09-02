@@ -72,7 +72,7 @@ You will pass in the frontend proxy url when running docker compose. The standar
 Run all containers (up) and run processes in the background (-d).&#x20;
 
 ```
-FRONT_PROXY_PASS=http//host.docker.internal:3000 docker compose -f docker-compose-no-build-external-frontend.yml up -d
+FRONT_PROXY_PASS=http//host.docker.internal:3000 docker-compose -f docker-compose-no-build-external-frontend.yml up -d
 ```
 
 Check progress and view containers:
